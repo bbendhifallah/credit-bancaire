@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Simulation de crédit</title>
+
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('css/fontawesome') }}
+            {{ encore_entry_link_tags('css/sb-admin-2') }}
+            {{ encore_entry_link_tags('css/common') }}
+        {% endblock %}
+    </head>
+
+    <body id="page-top">
+        <div id="wrapper">
+
+            {% block sidebar %}
+                {{ include('shared/_sidebar.html.twig') }}
+            {% endblock %}
+
+            <div id="content-wrapper" class="d-flex flex-column">
+                <div id="content">
+
+                    {% block topbar %}
+                        {{ include('shared/_topbar.html.twig') }}
+                    {% endblock %}
+
+                    {% block alerts %}{% endblock %}
+                    {% block content %}{% endblock %}
+                </div>
+
+                {% block footer %}
+                    {{ include('shared/_footer.html.twig') }}
+                {% endblock %}
+
+            </div>
+        </div>
+
+        <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+        
+        {% block javascripts %}
+            {{ encore_entry_script_tags('js/sb-admin-2') }}
+        {% endblock %}
+    </body>
+</html>

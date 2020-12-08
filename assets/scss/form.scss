@@ -1,0 +1,13 @@
+$frameGray: #e3e6ec;
+
+.form-frame {
+    border-radius: 0.35rem;
+    border: 0.25rem solid $frameGray;
+    border-style: solid;
+
+    .form-frame-content {
+        padding: 1.5rem;
+        border-bottom: 1px solid #e3e6ec;
+        position: relative;
+    }
+}

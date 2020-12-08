@@ -1,0 +1,68 @@
+{
+  "entrypoints": {
+    "js/sb-admin-2": {
+      "js": [
+        "/static/runtime.9e2ad59a.js",
+        "/static/0.cf60d32b.js",
+        "/static/2.17229916.js",
+        "/static/js/sb-admin-2.65fb8e8d.js"
+      ]
+    },
+    "js/datatables": {
+      "js": [
+        "/static/runtime.9e2ad59a.js",
+        "/static/0.cf60d32b.js",
+        "/static/3.6c1fe989.js",
+        "/static/js/datatables.12bc65af.js"
+      ]
+    },
+    "js/forms": {
+      "js": [
+        "/static/runtime.9e2ad59a.js",
+        "/static/0.cf60d32b.js",
+        "/static/1.c4344e79.js",
+        "/static/js/forms.cf8db5c0.js"
+      ]
+    },
+    "css/sb-admin-2": {
+      "js": [
+        "/static/runtime.9e2ad59a.js"
+      ],
+      "css": [
+        "/static/css/sb-admin-2.375af3ba.css"
+      ]
+    },
+    "css/fontawesome": {
+      "js": [
+        "/static/runtime.9e2ad59a.js"
+      ],
+      "css": [
+        "/static/css/fontawesome.e135b196.css"
+      ]
+    },
+    "css/common": {
+      "js": [
+        "/static/runtime.9e2ad59a.js"
+      ],
+      "css": [
+        "/static/css/common.f639ee11.css"
+      ]
+    },
+    "css/form": {
+      "js": [
+        "/static/runtime.9e2ad59a.js"
+      ],
+      "css": [
+        "/static/css/form.8c8768bc.css"
+      ]
+    },
+    "css/datatables": {
+      "js": [
+        "/static/runtime.9e2ad59a.js"
+      ],
+      "css": [
+        "/static/css/datatables.216a6ce5.css"
+      ]
+    }
+  }
+}
